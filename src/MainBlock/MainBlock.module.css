@@ -1,0 +1,17 @@
+.block{
+    list-style: none;
+    width: 850px;
+    margin: 20px auto;
+    
+}
+.elements{
+    margin: 20px;
+    border: 1px solid rgba(94, 89, 89, 0.354);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow:0 0 10px 5px rgba(94, 89, 89, 0.154);
+    transition: 0.3s ease;
+}
+.elements:hover{
+    background-color: rgb(214, 214, 217);
+}
