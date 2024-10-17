@@ -4,7 +4,9 @@ import { Layout } from 'antd';
 import { Nav } from './Nav';
 import { useState, useEffect } from 'react';
 import data from './data';
-const { Header, Content, Footer } = Layout;
+import Footer from "./Footer/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
+const { Header, Content } = Layout;
 
 
 

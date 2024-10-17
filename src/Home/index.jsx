@@ -1,5 +1,7 @@
 import React from 'react';
 import ButtonAreaHome from './ButtonAreaHome';
+import { Minicontent } from './Minicontent';
+
 
 const Home = () => {
     return ( 
@@ -7,6 +9,7 @@ const Home = () => {
          <h1>Welcome to Global News!</h1>
          <h5 style={{marginBottom:'40px'}}>Here you can read and listen to the newest news. Global News is a newspaper that began in 2022</h5>
          <ButtonAreaHome/>
+         <Minicontent/>
         </>
      );
 }
